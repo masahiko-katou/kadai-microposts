@@ -49,7 +49,7 @@ test:
 #
 production:
   :   adapter: : postgresql
-     encodingencoding: : unicode
+     encoding: : unicode
      pool: : 5
      database: : message-board_production 
   username: message-board
