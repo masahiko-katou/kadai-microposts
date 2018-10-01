@@ -47,10 +47,10 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-productionproduction:
-  :   adapteradapter: : postgresqlpostgresql
-     encodingencoding: : unicodeunicode
-     poolpool: : 55
-     databasedatabase: : message-board_productionmessage-board_produ 
+production:
+  :   adapter: : postgresql
+     encodingencoding: : unicode
+     pool: : 5
+     database: : message-board_production 
   username: message-board
   password: <%= ENV['MESSAGE-BOARD_DATABASE_PASSWORD'] %>
